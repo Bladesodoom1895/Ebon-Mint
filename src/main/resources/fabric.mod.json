@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ebonmint",
+	"version": "${version}",
+	"name": "Ebon Mint",
+	"description": "This is my custom currency mod for Ebon Hollow",
+	"authors": [
+		"Blade"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GNU Lesser General Public License (LGPLv3)",
+	"icon": "assets/ebonmint/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.blade.ebonmint.EbonMint"
+		],
+		"client": [
+			"com.blade.ebonmint.EbonMintClient"
+		],
+		"fabric-datagen": [
+			"com.blade.ebonmint.EbonMintDataGenerator"
+		]
+	},
+	"mixins": [
+		"ebonmint.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
