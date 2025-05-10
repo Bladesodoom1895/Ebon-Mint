@@ -11,6 +11,7 @@
 		"sources": "https://github.com/Bladesodoom1895/Ebon-Mint"
 	},
 	"license": "GNU Lesser General Public License (LGPLv3)",
+	"icon": "assets/ebonmint/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
